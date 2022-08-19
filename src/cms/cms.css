@@ -1,0 +1,50 @@
+.active {
+    background-color: red;
+}
+
+.react-tabs__tab-panel--selected {
+    position: relative;
+    top: -20px;
+    background: white;
+
+}
+
+.react-tabs__tab-list {
+    background: #413659;
+}
+
+.react-tabs__tab {
+    color: white;
+    margin-left: 15px;
+}
+
+/* MODAL */
+.modal-wrapper {
+    position: fixed;
+    padding-top: 150px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+}
+
+.modal-body {
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fefefe;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+.modal-close {
+    float: right;
+    font-size: 1.5em;
+    color: rgb(230, 86, 86);
+    cursor: pointer;
+}
